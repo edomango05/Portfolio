@@ -57,30 +57,6 @@ nav {
     cursor: pointer;
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin: 0;
-    list-style: none;
-}
-
-nav ul li {
-    display: list-item;
-}
-
-nav ul li a {
-    display: block;
-    height: 100%;
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--main-text-color);
-    transition: all .23s;
-}
-
-nav ul li a:hover {
-    color: var(--hover-text-color);
-}
 
 .overview_section {
     background-color: var(--bg-secondary-color);

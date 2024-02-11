@@ -9,21 +9,7 @@ export default function Home() {
       <div id="root">
         <nav>
           <h3 className="title">🥭 Edo.io</h3>
-          <ul>
-            <li>
-              <a href="#overview">Overview</a>
-            </li>
-            <li>
-              <a href="#about">About me</a>
-            </li>
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-            <LightModeToggle />
-          </ul>
+          <LightModeToggle />
         </nav>
         <section id="overview" className="overview_section">
           <div className="container">
@@ -91,14 +77,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="portfolio" className="portfolio_section">
-          <div className="container" >
-            <div className="portfolio-content">
-
-            </div>
-          </div>
-        </section>
-        <section id="contact" className="contact_section"></section>
       </div>
     </main>
   );
